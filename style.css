@@ -74,6 +74,7 @@ body {
   .desk {
     text-align: center;
     position: relative;
+    padding: 10px;
   }
 
   .product2 {
