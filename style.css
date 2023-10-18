@@ -70,25 +70,33 @@ body {
   .chair,
   .table,
   .lamp,
-  .desk {
+  .desk,
+  .cart1 {
     text-align: center;
     position: relative;
     padding: 10px;
     border-width:1px;
- border-style:solid;
- border-color:#fffffe;
+    border-style:solid;
+    border-color:#fffffe;
+  }
+
+ .cart1 {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .product2 {
     display: flex;
   }
-  
+
   .product img {
     width: 700px; 
     height: auto;
   }
 
-  .product2 img {
+  .product2 img,
+  .cart1 img {
     width: 100px; 
     height: auto;
     padding: 45px;
@@ -113,3 +121,12 @@ body {
 .product .btn:hover {
   background-color: black;
 }
+
+.chair:hover,
+.table:hover,
+.lamp:hover,
+.desk:hover,
+.cart1:hover {
+  text-decoration: underline;
+}
+
