@@ -68,6 +68,18 @@ body {
     cursor: pointer;
   }
   
+  .chair,
+  .table,
+  .lamp,
+  .desk {
+    text-align: center;
+    position: relative;
+  }
+
+  .product2 {
+    display: flex;
+  }
+  
   .product img {
     width: 700px; 
     height: auto;
@@ -79,18 +91,6 @@ body {
     padding: 45px;
   
   }
-  .desk, 
-  .lamp,
-  .desk,
-  .table {
-    width: 100px; 
-    height: auto;
-    padding: 40px;
-    display: inline-block;
-    width: 100px; 
-  }
-
-
 
 .product .btn {
   position: absolute;
