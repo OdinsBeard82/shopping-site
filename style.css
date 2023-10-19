@@ -74,7 +74,7 @@ body {
   .table,
   .lamp,
   .desk,
-  .cart1 {
+  .cart {
     text-align: center;
     position: relative;
     padding: 10px;
@@ -83,7 +83,7 @@ body {
     border-color:#fffffe;
   }
 
- .cart1 {
+ .cart {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
@@ -91,6 +91,7 @@ body {
 
   .product2 {
     display: flex;
+    
   }
 
   .product img {
@@ -99,10 +100,11 @@ body {
   }
 
   .product2 img,
-  .cart1 img {
+  .cart img {
     width: 100px; 
     height: auto;
     padding: 45px;
+    
   
   }
 
@@ -129,7 +131,7 @@ body {
 .table:hover,
 .lamp:hover,
 .desk:hover,
-.cart1:hover {
+.cart:hover {
   text-decoration: underline;
 }
 
