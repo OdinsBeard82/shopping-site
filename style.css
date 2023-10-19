@@ -41,6 +41,9 @@ body {
     margin: 10px;
     text-align: center;
   }
+  .product-image {
+    position: relative;
+  }
   
   .cart-item {
     border: 1px solid #ccc;
